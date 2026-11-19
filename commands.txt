@@ -1,4 +1,0 @@
-git --version
-
-uv init --python 3.12
-

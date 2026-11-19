@@ -1,0 +1,9 @@
+git --version
+
+uv init --python 3.12
+uv add -r requirements.txt
+
+mkdir -p backend/{api,rag,agent,config,logger,exceptions,tests}
+touch backend/{api,rag,agent,config,logger,exceptions}/__init__.py
+
+Copy backend/config/settings.py 
