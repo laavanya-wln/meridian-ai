@@ -23,7 +23,7 @@ agent = create_agent(
     
 )
 
-result = agent.invoke({"messages": [{"role": "user", "content": "Can you tell me how much is 1 eur to inr?, you have the validate_fx_hedge tool, please use it to check the rate and tell me if I need approval for 500000 eur purchase."}]})
+result = agent.invoke({"messages": [{"role": "user", "content": "who must approve a purchase of 480000 EUR?"}]})
 
 for message in result["messages"]:
     calls = getattr(message, "tool_calls", None)
