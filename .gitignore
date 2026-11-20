@@ -18,3 +18,37 @@ wheels/
 # GCP service-account keys
 credentials/
 *service-account*.json
+
+# Frontend (Node / Vite)
+frontend/node_modules/
+.vite/
+*.tsbuildinfo
+coverage/
+.eslintcache
+
+# Playwright / Vitest
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# Local env overrides
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editors
+.idea/
+*.swp
+
+#chroma
+.meridian/
+
+#sampledocs
+sample_docs/
